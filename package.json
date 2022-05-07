@@ -1,0 +1,15 @@
+{
+  "name": "cypresstask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "exampleTest": "npx cypress run --record --key 23d0f278-9c37-48c3-96f9-8f382b4eb80b --spec  'cypress/integration/CypressTask/Example.spec.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.6.0"
+  }
+}
